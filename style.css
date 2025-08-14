@@ -110,26 +110,26 @@ body {
 
 /* CV Button Styling */
 .cv-btn {
-    background-color: #1f2937; /* dark gray background like in pic */
+    background-color: #1f2937; 
     color: #ffffff;
     border: none;
-    padding: 1rem 3rem; /* more horizontal padding for width */
+    padding: 1rem 3rem; 
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1rem; /* button text size */
+    font-size: 1rem; 
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: center; /* centers content */
+    justify-content: center; 
     gap: 0.5rem;
     transition: background-color 0.3s ease;
-    margin: 0 auto; /* centers button */
-    width: 100%; /* full width like in reference */
-    max-width: 500px; /* limit size so it doesn’t get too wide */
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 500px; 
 }
 
 .cv-btn:hover {
-    background-color: #374151; /* hover effect */
+    background-color: #374151; 
 }
 
 .btn-icon {
@@ -153,8 +153,8 @@ body {
 }
 
 .hero-image img {
-    width: 100%; /* Reduce size */
-    max-width: 450px; /* Keep it smaller */
+    width: 100%; 
+    max-width: 450px; 
     border-radius: 0.5rem;
     object-fit: cover;
 }
@@ -183,14 +183,14 @@ body {
 .stat-number {
     font-size: 3.5rem;
     font-weight: bold;
-    color: #C8FEC7; /* light green */
+    color: #C8FEC7; 
     margin-bottom: 0.25rem;
 }
 
 .stat-label {
-    color: #C8FEC7; /* light green */
+    color: #C8FEC7; 
     font-size: 1.25rem;
-    font-weight: bold; /* make bold like the numbers */
+    font-weight: bold; 
     line-height: 1.4;
 }
 
@@ -205,8 +205,7 @@ body {
 .divider-icon {
     width: 3rem;
     height: auto;
-    /* Keep original icon color */
-}
+    
 /* Portfolio Section */
 .portfolio-section {
     padding: 3rem 2rem;
@@ -288,9 +287,9 @@ body {
     display: inline-block;
     background: linear-gradient(#333232);
     color: #ffffff;
-    font-size: 1rem; /* bigger text */
+    font-size: 1rem; 
     font-weight: 600;
-    padding: 0.75rem 1.5rem; /* more height & width */
+    padding: 0.75rem 1.5rem; 
     border-radius: 0;
     border: none;
     cursor: pointer;
@@ -370,7 +369,7 @@ body {
 
 .skill-title {
     font-size: 1.5rem;
-    font-weight: bold; /* already bold */
+    font-weight: bold; 
     margin-bottom: 0.75rem;
 }
 
@@ -378,7 +377,7 @@ body {
     color: #9ca3af;
     font-size: 0.875rem;
     line-height: 1.5;
-    font-weight: bold; /* new - makes paragraph bold */
+    font-weight: bold; 
 }
 .circle-bg {
   fill: none;
@@ -412,17 +411,17 @@ body {
 }
 
 .testimonial-author {
-    font-size: 2rem; /* increased from 1.5rem */
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
     color: white;
 }
 
 .testimonial-text {
-    font-size: 1.5rem; /* increased from 1.125rem */
+    font-size: 1.5rem; 
     font-weight: bold;
-    line-height: 1.8; /* slightly more spacing for big text */
-    max-width: 900px; /* slightly wider */
+    line-height: 1.8; 
+    max-width: 900px; 
     margin: 0 auto 1.5rem;
     color: white;
 }
@@ -442,7 +441,7 @@ body {
 
 /* Footer Contact Section */
 .footer-contact {
-    background-color: #000; /* Black background around the purple box */
+    background-color: #000; 
     padding: 3rem 0;
     display: flex;
     justify-content: center;
@@ -451,7 +450,7 @@ body {
 .contact-container {
     display: flex;
     align-items: center;
-    background-color: #a855f7; /* Purple background */
+    background-color: #a855f7; 
     border-radius: 0.75rem;
     padding: 1.5rem 2rem;
     max-width: 800px;
@@ -459,8 +458,8 @@ body {
     gap: 1.5rem;
 }
 .contact-image {
-    width: auto;        /* remove fixed width */
-    height: 150px;      /* increase for more height */
+    width: auto;        
+    height: 150px;      
     border-radius: 0.5rem;
     flex-shrink: 0;
 }
@@ -617,4 +616,5 @@ svg defs {
         gap: 1rem;
         align-items: center;
     }
+
 }
