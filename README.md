@@ -5,7 +5,7 @@ Showcasing design skills, portfolio projects, testimonials, and contact informat
 
 📸 Preview
 
-![Website Preview](Images/Desktop-view.png)
+![Website Preview](https://github.com/Roy1Priyanka/Assignment/blob/main/Images/Desktop.png)
 
 ✨ Features
 
